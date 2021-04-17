@@ -2,18 +2,10 @@ body{
   background-color: #f4f6ff;
   margin:0;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Poppins';
 }
-h1{
-  font-size: 6rem;
-  margin-top: 50px auto 0 auto;
-  color: #ffcb74;
-  font-family: 'Parisienne', cursive;
-}
-h2{
-  color: #4f8a8b;
-  font-size: 3.5rem;
-}
+
+
 h3{
   color: #4f8a8b;
   font-size: 2rem;
@@ -25,83 +17,132 @@ hr{
   width: 10%;
   margin: 50px auto;
 }
+
+
+/***** Introduction Section ********/
 .intro{
-  padding-top: 100px;
+  padding: 5% 7%;
   position: relative;
   background-color: #3ca59d;
   margin:0;
 }
-.profile img{
-  border-radius: 40%;
-  padding-top: 30px;
+
+.intro h1{
+  font-size: 6rem;
+  margin: 50px auto 0;
+  color: #ffcb74;
+  font-family: 'Parisienne', cursive;
 }
+
 .intro p{
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: normal;
   color: #ffcb74;
 }
+
 .mountain{
   border-radius: 30px;
   padding-top: 100px;
 }
+
 .bottom-cloud{
   position: absolute;
   left: 200px;
 }
+
 .top-cloud{
   position: absolute;
   right: 200px;
   top:70px;
 }
+
+
+
+/***** Mid section *****/
+.profile img{
+  width: 15rem;
+  height: 15rem;
+  padding-top: 30px;
+  border-radius: 50%;
+}
+
+
+
+/**** skills section ****/
+.skills h2{
+  color: #4f8a8b;
+  font-size: 2.5rem;
+}
+
 .skill-row{
   margin: 100px auto;
   width: 50%;
   text-align: left;
   line-height: 2rem;
-  font-family: 'Cabin', sans-serif;
   padding-bottom: 30px;
 }
-.profile p{
-  font-family: 'Cabin', sans-serif;
-}
-.contact-me p{
-  font-family: 'Cabin', sans-serif;
-}
-.python-image{
-  width: 25%;
+
+.skill1-image{
+  width: 150px;
+  height: 150px;
   float: left;
   margin-right: 30px;
   border-radius: 50%;
 }
-.webdev-image{
-  width: 25%;
+
+.skill2-image{
+  width: 150px;
+  height: 150px;
   float: right;
   margin-left: 30px;
   border-radius: 50%;
 }
+
+/**** Contact me section ****/
+.contact-me{
+  padding: 90px;
+}
+
+.contact-me p{
+  padding-bottom: 40px;
+}
+
+.btn{
+  text-decoration: none;
+  background-color: #4f8a8b;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  height: 50px;
+}
+
+
+
+/***** Footer section ********/
 .bottom-container{
   background-color: #ffcb74;
   padding: 50px;
 }
+
 .bottom-container a{
   padding-right: 50px;
   outline: none;
   text-decoration: none;
-  font-family: 'Krona One', sans-serif;
 }
+
 .bottom-container p{
   color: white;
 }
-.contact-me{
-  padding: 90px;
-}
-.contact-me p{
-  padding-bottom: 40px;
-}
-.btn{
-  text-decoration: none;
-  background-color: #4f8a8b;
-  padding: 20px;
-  color: white;
-  border-radius: 20%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
